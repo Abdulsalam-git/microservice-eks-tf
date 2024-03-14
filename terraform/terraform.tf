@@ -3,12 +3,6 @@
 
 terraform {
 
-  cloud {
-    workspaces {
-      name = "microservice-eks-tf"
-    }
-  }
-
   required_providers {
     aws = {
       source  = "hashicorp/aws"
